@@ -106,6 +106,7 @@ namespace double_linked_list
                 previous.next = null;
                 return true;
             }
+
         }
     }
 
