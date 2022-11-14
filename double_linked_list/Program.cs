@@ -21,35 +21,4 @@ namespace double_linked_list
 
     }
 
-    class DoubleLinkedList
-    {
-        Node START;
-
-        //constructor
-
-        public DoubleLinkedList()
-        {
-            START = null;
-        }
-
-    public void addNode()
-    {
-        int nim;
-        string nm;
-        Console.Write("\Enter the roll number of the student: ");
-        nim = Convert.ToInt32(Console.ReadLine());
-        Console.Write("\nEnter the name of the student: ");
-        nm = Console.ReadLine();
-        Node newNode = new Node();
-        newNode.name = nm;
-        newNode.noMhs = nim;
-    }
-
-    class Program
-    {
-       
-        static void Main(string[] args)
-        {
-        }
-    }
-}
+   
